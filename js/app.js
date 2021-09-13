@@ -33,8 +33,6 @@ const showProducts = (products) => {
   }
 };
 
-// show Details
-
 // My cart starts
 let count = 0;
 const addToCart = (id, price) => {

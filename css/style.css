@@ -8,34 +8,13 @@ body {
 }
 
 .header-section {
-  background-color: rgb(9, 113, 182);
+  background-image: url(/images/bk-store-cover.jpg);
+  background-size: contain;
+  background-color: #f7e7d8;
+  background-repeat: no-repeat;
   height: 30rem;
 }
-/* .search-field {
-  border: none;
-  border-radius: 50px;
-  padding: 5px;
-  outline: none;
-}
-.search-field:hover {
-  outline: none;
-  border: none;
-}
-.search-box {
-  border: 1px solid rgb(3, 118, 211);
-  width: 58rem;
-  border-radius: 50px;
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 10rem;
-}
 
-.search-button {
-  padding: 10px 30px !important;
-  border-radius: 50px !important;
-  margin-left: 285px;
-  border: none !important;
-} */
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
