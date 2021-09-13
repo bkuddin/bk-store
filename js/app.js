@@ -17,11 +17,11 @@ const showProducts = (products) => {
       <div class="card single-product ">
     <img src="${product.image}" class="card-img-top product-image  mx-auto"  alt="...">
     <div class="card-body card-body-style">
-      <h5 class="card-title fs-4">${product.title}</h5>
+      <h5 class="card-title fs-3">${product.title}</h5>
       <p class="card-text fs-4 text-success"><span class='bold-text'>Category</span>: ${product.category}</p>
       <h2>Price: $ ${product.price}</h2>
       <p class="rating-bg fs-4"><span class='bold-text'>Rating:</span> ${product.rating.rate}</p>
-      <p class="text-warning fs-5">Count: ${product.rating.count}</p>
+      <p class="text-danger fs-5">Count: ${product.rating.count}</p>
     </div>
     <div class="card-footer card-footer-style">
     <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success fs-4">add to cart</button>
