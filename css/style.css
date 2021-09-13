@@ -62,6 +62,8 @@ body {
 .card-footer-style {
   padding-bottom: 20px;
 }
+
+/* Responsive Solution */
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
